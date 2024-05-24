@@ -16,32 +16,34 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              repudiandae mollitia debitis eligendi libero ea dolorum
-              perspiciatis repellat maiores facere!
+              I'm Dilnawaz Khan, a passionate and skilled React Native developer
+              with a robust background in cross-platform app
+              development,architecture, and performance optimization. My journey
+              in the tech world has been fueled by a relentless curiosity and a
+              drive to create user-centric applications that deliver exceptional
+              experiences.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, a. Beatae deleniti nostrum et expedita a ab dicta
-              sequi aliquid?
+              I thrive on tackling new challenges and am always eager to
+              contribute to innovative projects.
             </p>
           </div>
           <div className="about-skills">
             <div className="about-skill">
               <p>React Native</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "100%" }} />
             </div>
             <div className="about-skill">
               <p>JavaScript</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "80%" }} />
             </div>
             <div className="about-skill">
               <p>TypeScript</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
               <p>React JS</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "60%" }} />
             </div>
           </div>
         </div>
@@ -58,7 +60,7 @@ const About = () => {
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>10+</h1>
+          <h1>15+</h1>
           <p>Happy Clients</p>
         </div>
       </div>

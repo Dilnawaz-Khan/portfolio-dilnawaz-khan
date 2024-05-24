@@ -135,14 +135,23 @@
     display: none;
   }
 
+  .about-left img {
+    border-radius: 30px;
+  }
+
   .about-para {
     font-size: 18px;
     line-height: 32px;
   }
 
+  .about-para p {
+    text-align: justify;
+  }
+
   .about-skill {
     gap: 20px;
     align-items: center;
+    background: red;
   }
 
   .about-skill p {

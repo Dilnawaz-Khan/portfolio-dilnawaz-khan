@@ -7,6 +7,7 @@
 
 .hero img {
   margin-top: 150px;
+  border-radius: 900px;
 }
 
 .hero h1 {
@@ -30,6 +31,14 @@
   line-height: 40px;
 }
 
+.hero p a {
+  background: linear-gradient(270deg, #df8909 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
 .hero-action {
   display: flex;
   align-items: center;
@@ -51,6 +60,17 @@
   border-radius: 50px;
   border: 2px solid #fff;
   cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+
+.hero-resume a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-resume a:hover {
+  color: #b415ff;
 }
 
 .hero-connect:hover {
@@ -59,6 +79,7 @@
 
 .hero-resume:hover {
   border-color: #b415ff;
+  color: #b415ff;
 }
 
 @media (max-width: 768px) {

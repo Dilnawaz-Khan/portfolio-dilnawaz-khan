@@ -15,10 +15,10 @@ const MyWork = () => {
           <img key={mywork.w_no} src={mywork.w_img} alt={mywork.w_name} />
         ))}
       </div>
-      <div className="my-work-show-more">
+      {/* <div className="my-work-show-more">
         <p>Show More</p>
         <img src={arrow_icon} alt={"arrow icon icon"} />
-      </div>
+      </div> */}
     </div>
   );
 };

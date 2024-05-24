@@ -5,6 +5,16 @@
   margin: 20px 170px;
 }
 
+.navbar img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar img:hover {
+  transform: scale(1.45);
+  transition: 0.3s;
+}
+
 .nav-menu {
   display: flex;
   align-items: center;

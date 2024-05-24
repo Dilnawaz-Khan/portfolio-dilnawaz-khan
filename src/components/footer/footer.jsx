@@ -1,11 +1,12 @@
 import "./footer.css";
 import footerLogo from "../../assets/footer_logo.svg";
 import userIcon from "../../assets/user_icon.svg";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-top">
+      {/* <div className="footer-top">
         <div className="footer-top-left">
           <img src={footerLogo} alt="footer logo" />
           <p>
@@ -20,16 +21,18 @@ const Footer = () => {
           </div>
           <div className="footer-subscribe">Subscribe</div>
         </div>
-      </div>
+      </div> */}
       <hr />
       <div className="footer-bottom">
         <p className="footer-bottom-left">
           &copy; 2024 Dilnawaz Khan. All rights reserved.
         </p>
         <div className="footer-bottom-right">
-          <p>Terms of services</p>
-          <p>Privacy Policy</p>
-          <p>Contact with me</p>
+          {/* <p>Terms of services</p>
+          <p>Privacy Policy</p> */}
+          <AnchorLink className="achor-link" offset={50} href="#contact">
+            <p>Contact with me</p>
+          </AnchorLink>
         </div>
       </div>
     </div>
